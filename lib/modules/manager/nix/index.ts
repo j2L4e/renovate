@@ -4,7 +4,7 @@ export { updateArtifacts } from './artifacts';
 export const supportsLockFileMaintenance = true;
 
 export const defaultConfig = {
-  fileMatch: ['(^|/)flake\\.nix$'],
+  fileMatch: ['(^|\\/)flake\\.nix$'],
   enabled: false,
 };
 
